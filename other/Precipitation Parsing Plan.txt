@@ -1,0 +1,52 @@
+DISTANCE = 5
+
+
+1. Per each location source, determine its latitude and longitude
+	a. Magma: 
+	b. Mount Union:
+	c. Lake Pleasant: 
+
+2. For each location, check its year i.e. 2015 - 2018 and parse through the corresponding csv ( YEAR.csv )
+
+3. Find tower within { DISTANCE } mile radius of each location ( see 1a - 1c )
+
+4. export data to csv
+	a. Towers close to Magma
+		i. 2015 data
+		ii. 2016 data
+		iii. 2017 data
+		iv. 2018 data
+	b. Towers close to Mount Union
+		i. 2015 data
+		ii. 2016 data
+		iii. 2017 data
+		iv. 2018 data
+	c. Towers close to Lake Pleasant
+		i. 2015 data
+		ii. 2016 data
+		iii. 2017 data
+		iv. 2018 data
+
+5. Graph data
+	a. Precipitation Graph
+		i. Towers close to Magma
+			I. 2015 data
+			II. 2016 data
+			III. 2017 data
+			IV. 2018 data
+		ii. Towers close to Mount Union
+			I. 2015 data
+			II. 2016 data
+			III. 2017 data
+			IV. 2018 data
+		iii. Towers close to Lake Pleasant
+			I. 2015 data
+			II. 2016 data
+			III. 2017 data
+			IV. 2018 data
+
+	b. Parse tower data per location per year ( x12 total )
+		i. per entry, determine time stamp, and signal strength
+			I. X = timestamp
+			II. Y1 = rain ( mm / inches )
+			III. Y2 = signal strength
